@@ -19,8 +19,13 @@
     
  # initializer_list constructor, 帶有初始值列的建構式
  
-     // 用一串列進行初始化行為
-     // {} 代表串列 
+     // 前導說明
+      [] 為陣列 Array
+      <> 為串列，即鏈結陣列 Linked List
+      {} 為物件 Object
+      func(輸入型別 容器變數): 輸出型別解釋 { 方程式內容。 }
+ 
+     // 用一串列進行初始化行為 
      Vector::Vector(std::initializer_list<double> lstDouble)
         :elem{new double[lstDouble.size()]}, sz{static_cast<int>(lstDouble.size())}
         {
