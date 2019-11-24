@@ -17,9 +17,15 @@
         v.elem = new double[i]; 
     }
     
- # 建構式
+ # initializer_list constructor, 帶有初始值列的建構式
  
- 
+     // 用一串列進行初始化行為
+     Vector::Vector(std::initializer_list<double> lstDouble)
+        {
+        
+            
+
+        }
     
  # 運用下標函數 subscript 存取成員變數
  
