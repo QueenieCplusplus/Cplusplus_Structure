@@ -17,5 +17,14 @@
         v.elem = new double[i]; 
     }
     
-    
+ # 存取成員變數
+ 
+     // 透過方程式中的敘述句的 . 或是 -> 或是 * 關鍵字符號 存取成員。
+    void findOutV(Vector v, Vector& refV, Vector* ptrV) {
+
+        int iS = v.sz; // 透過 . 和成員名稱存取物件
+        int iR = refV.sz; // 透過 參照和 . 以及成員名稱存取物件
+        int iP = ptrV->sz; // 透過指標 * 變數和 -> 方向符號以及成員名稱存取物件。
+
+    }
 
