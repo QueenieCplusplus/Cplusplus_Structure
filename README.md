@@ -21,9 +21,10 @@
  
      // 用一串列進行初始化行為
      Vector::Vector(std::initializer_list<double> lstDouble)
+        :elem{new double[lstDouble.size()]}, sz{static_cast<int>(lstDouble.size())}
         {
         
-            
+             copy(lstDouble.begin(), listDouble.end(), elem);
 
         }
     
