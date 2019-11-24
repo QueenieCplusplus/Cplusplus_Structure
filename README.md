@@ -10,7 +10,7 @@
 
     Vector v;
 
-    // & 代表記憶體位址符號，透過 reference 傳遞 v
+    // & 代表記憶體位址符號，透過 non-const reference 傳遞 v
     void vectorInitializer(int i, Vector& v) {
         v.sz = i;
         // 配置 i 個 浮點數型別的元素陣列賦予等號左邊的具名變數容器。
