@@ -25,6 +25,7 @@
         :elem{new double[lstDouble.size()]}, sz{static_cast<int>(lstDouble.size())}
         {
         
+             // 初始值列複製到元素中
              copy(lstDouble.begin(), listDouble.end(), elem);
 
         }
