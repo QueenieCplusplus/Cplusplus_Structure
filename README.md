@@ -26,6 +26,7 @@
       func(輸入型別 容器變數): 輸出型別解釋 { 方程式內容。 }
  
      // 用一串列進行初始化行為 
+     // , 逗號代表序列符號
      Vector::Vector(std::initializer_list<double> lstDouble)
         :elem{new double[lstDouble.size()]}, sz{static_cast<int>(lstDouble.size())}
         {
