@@ -17,7 +17,7 @@
         v.elem = new double[i]; 
     }
     
- # 存取成員變數
+ # 運用下標函數 subscript 存取成員變數
  
      // 透過方程式中的敘述句的 . 或是 -> 或是 * 關鍵字符號 存取成員。
     void findOutV(Vector v, Vector& refV, Vector* ptrV) {
